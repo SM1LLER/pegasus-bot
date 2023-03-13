@@ -21,7 +21,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 public class PegasusBotApplication implements CommandLineRunner {
 
 	static Logger logger = LoggerFactory.getLogger(PegasusBotApplication.class);
-	@Autowired
 	private final BotProperties botProperties;
 
 	public PegasusBotApplication(BotProperties properties) {
